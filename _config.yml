@@ -7,7 +7,6 @@
 
 # Site settings
 title: James A Roland | Wushu x SF Tech
-email: james.a.roland@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   James Roland's personal site
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -2,7 +2,6 @@
 
   <div class="wrapper">
 
-    <!-- <a href="{{ site.baseurl }}/"><img class="site-profile-image" src="{{ site.url }}/assets/profile.jpg"> -->
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -13,15 +12,15 @@
       </a>
 
       <div class="trigger">
-        <a href="{{ site.baseurl }}/"><img class="site-profile-image" src="{{ site.url }}/assets/profile.jpg"></a>
-        <b>James A Roland</b> | Software Engineer | Wushu Practitioner
-        <!-- {% for my_page in site.pages %}
+        <a href="{{ site.baseurl }}/"><img class="site-profile-image" src="{{ site.url }}/assets/profile.jpg">
+        {% for my_page in site.pages %}
           {% if my_page.title and my_page.title != "Thank You!" %}
               <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
-        {% endfor %} -->
+        {% endfor %}
       </div>
     </nav>
+    <h4>James Roland | 💻 × 🥋 × 🤸‍♂️</h4>
 
   </div>
 

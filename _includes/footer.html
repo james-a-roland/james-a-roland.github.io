@@ -3,7 +3,17 @@
         <div class="footer-col-wrapper">
             <div class="footer-col footer-col-1">
                 <div class="media-list">
-                    {% if site.linkedin_username %} {% include icon-linkedin.html username=site.linkedin_username %} {% endif %} {% if site.github_username %} {% include icon-github.html username=site.github_username %} {% endif %}
+                    {% if site.linkedin_username %} 
+                    	{% include icon-linkedin.html username=site.linkedin_username %} 
+                    {% endif %} 
+                    {% if site.github_username %}
+                    	{% include icon-github.html username=site.github_username %} 
+                    {% endif %}
+                    <!-- TODO: Figure out why "instagram_username" isn't a valid variable... -->
+                    <!-- {% if site.instagram_username %}
+                    	{% include icon-instagram.html username=site.instagram_username %} 
+                    {% endif %} -->
+                    	{% include icon-instagram.html username="jameyjumps" %} 
                 </div>
             </div>
         </div>

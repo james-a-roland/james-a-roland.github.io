@@ -11,8 +11,10 @@ description: > # this means to ignore newlines until "baseurl:"
   James Roland's personal site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://james-a-roland.github.io" # the base hostname & protocol for your site
-github_username:  james-a-roland
+github_username: james-a-roland
+asdf: jameyjumps
 linkedin_username: jaroland
+
 
 # Build settings
 sass:
